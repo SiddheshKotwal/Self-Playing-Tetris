@@ -13,29 +13,11 @@ The project includes two visualizers: one for watching the AI train in real-time
 | ![Live Training Demo](demo/visual_train_demo.gif) | ![Final Agent Demo](demo/visual_demo.gif) |
 | _The AI's "thought process": all possible moves are shown in transparent blue, the chosen move in solid yellow._ | _The final trained agent playing a standard, high-speed game._ |
 
----
-### **How to Create and Add the Demo Videos (GIFs)**
-1.  Run `visual_train.exe` and `visual.exe`.
-2.  Use a screen recording tool to capture about one minute of gameplay from each. **Free tools like [ScreenToGif](https://www.screentogif.com/) (Windows) or [Kap](https://getkap.co/) (Mac) are excellent for this.**
-3.  Save the recordings as `visual_train_demo.gif` and `visual_demo.gif` inside the `demo/` folder in your project.
-4.  Commit and push the `demo` folder to GitHub.
-
----
-
 ## 📈 AI Learning Curve
 
 The training pipeline logs key performance indicators to a CSV file. The graph below shows the average and best fitness of the population over 50 generations, demonstrating a clear and significant learning trend.
 
-![Learning Curve](demo/learning_curve_graph.png)
-
----
-### **How to Add the Graph**
-1.  After running `train.exe`, open the generated `training_log.csv` in a spreadsheet program (Excel, Google Sheets).
-2.  Create a Line Chart with "Generation" as the X-axis and "AverageFitness" and "BestFitness" as the two data series.
-3.  Save the chart as an image named `learning_curve_graph.png` inside the `demo/` folder.
-4.  Commit and push the `demo` folder to GitHub.
-
----
+![Learning Curve](demo/learning_curve_graph.jpg)
 
 ## ✨ Key Features
 
@@ -65,8 +47,8 @@ These instructions assume you are on Windows and using the MSYS2/MinGW64 toolcha
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YourUsername/YourRepoName.git](https://github.com/YourUsername/YourRepoName.git)
-    cd YourRepoName
+    git clone [https://github.com/SiddheshKotwal/Self-Playing-Tetris.git](https://github.com/SiddheshKotwal/Self-Playing-Tetris.git)
+    cd Self-Playing-Tetris
     ```
 2.  **Install Dependencies** (in MSYS2 MinGW 64-bit shell):
     ```bash
