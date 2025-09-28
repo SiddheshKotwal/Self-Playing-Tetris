@@ -17,7 +17,7 @@ The project includes two visualizers: one for watching the AI train in real-time
 
 The training pipeline logs key performance indicators to a CSV file. The graph below shows the average and best fitness of the population over 50 generations, demonstrating a clear and significant learning trend.
 
-![Learning Curve](demo/learning_curve_graph.jpg)
+![Learning Curve](demo/learning_curve_graph.JPG)
 
 ## ✨ Key Features
 
